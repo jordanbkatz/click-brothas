@@ -1,0 +1,11 @@
+.countdown {
+    margin-left: 35px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $secondary;
+    border-radius: 100%;
+}

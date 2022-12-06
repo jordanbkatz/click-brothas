@@ -1,0 +1,8 @@
+.brotha {
+    &.active {
+        td {
+            background-color: $accent;
+            color: $primary;   
+        }
+    }
+}

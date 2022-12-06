@@ -1,0 +1,9 @@
+.leaderboard {
+    width: 100%;
+    border-spacing: 5px;
+    th, td {
+        border: 1px solid $secondary;
+        padding: 17.5px;
+        border-radius: 7px;
+    }
+}
