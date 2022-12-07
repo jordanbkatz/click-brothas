@@ -4,7 +4,7 @@ import { IBrotha } from '../models/brotha';
 import Countdown from '../components/Countdown';
 import Leaderboard from '../components/Leaderboard';
 
-const socket = io('http://localhost:3002');
+const socket = io('https://jbk-click-brothas.herokuapp.com');
 
 const Home: React.FC = () => {
     const [clientId, setClientId] = useState<string>('');
